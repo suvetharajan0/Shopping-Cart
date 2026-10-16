@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <p>Purchase, Satisfy, Enjoy</p>
+<div class="container">
+    <div class="products">
+        <div class="product">
+           
+            <img src="1.png" alt="image1" style="height: 200px; width: 200px;">
+             <h3>Woman Heel</h3>
+             <p>Price: $850</p>
+             <button onclick="addToCart('Woman Heel', 850)">Add to Cart</button>
+        </div>
+        <div class="product">
+           
+            <img src="3.png" alt="image1" style="height: 200px; width: 200px;">
+             <h3>Woman Satchel</h3>
+             <p>Price: $1500</p>
+             <button onclick="addToCart('Woman Satchel', 1500)">Add to Cart</button>
+        </div>
+        <div class="product">
+          
+            <img src="4.png" alt="image1" style="height: 200px; width: 200px;">
+              <h3>Woman Lipstick</h3>
+              <p>Price: $500</p>
+             <button onclick="addToCart('Woman Lipstick', 500)">Add to Cart</button>
+        </div>
+        <div class="product">
+           
+            <img src="5.png" alt="image1" style="height: 200px; width: 200px;">
+             <h3>Woman Perfume</h3>
+             <p>Price: $1000</p>
+             <button onclick="addToCart('Woman Perfume', 1000)" id="cart-btn">Add to Cart</button> 
+        </div>
+    </div>
+</div>
+ <div id="cartItems">
+        <h2>Cart Items</h2>
+        <p>Your Cart is Empty</p>
+    </div>
+     <p id="total"></p>
+    <script src="script.js"></script>
+</body>
+</html>
